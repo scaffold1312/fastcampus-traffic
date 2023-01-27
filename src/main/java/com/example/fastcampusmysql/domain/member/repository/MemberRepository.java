@@ -32,7 +32,7 @@ public class MemberRepository {
 
     final private NamedParameterJdbcTemplate namedParameterJdbcTemplate;
 
-    static final private String TABLE = "member";
+    static final private String TABLE = "Member";
     /*
     * Optional의 용도
     * : NPE(Null Point Exception) 방지 (null이 올수있는 값을 감싸는 Wrapper 클래스)
